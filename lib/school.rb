@@ -24,8 +24,8 @@ class School #Model
     @roster[grade]
   end
 
-  def sort
-    self.roster.sort
-  end
+  # def sort
+  #   self.roster.sort
+  # end
 
 end

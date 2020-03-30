@@ -24,7 +24,7 @@ class School #Model
   end
 
   def sort
-    puts @roster
+    puts roster
   end
 
 end

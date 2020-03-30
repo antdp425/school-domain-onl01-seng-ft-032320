@@ -24,9 +24,9 @@ class School #Model
   end
 
   def sort
-  roster.collect do |k,v|
-    roster[k].sort!
-      end
+    roster.keys.collect do |grade|
+      roster[grade].sort!
+    end
   end
 
 end

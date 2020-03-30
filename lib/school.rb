@@ -17,6 +17,7 @@ class School #Model
       @roster[grade] = []
       @roster[grade] << student
     end
+    @roster[grade].sort
   end
 
   def grade(grade)

@@ -24,7 +24,9 @@ class School #Model
   end
 
   def sort
-    puts roster
+  roster.collect do |k,v|
+    roster[k].sort!
+      end
   end
 
 end

@@ -17,15 +17,14 @@ class School #Model
       @roster[grade] = []
       @roster[grade] << student
     end
-    @roster[grade].sort
   end
 
   def grade(grade)
     @roster[grade]
   end
 
-  # def sort
-  #   self.roster.sort
-  # end
+  def sort
+    puts @roster
+  end
 
 end
